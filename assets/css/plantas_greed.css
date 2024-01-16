@@ -1,0 +1,72 @@
+#hero-plantas h4 {
+    letter-spacing: 1px;
+}
+#hero-plantas {
+    padding: 20px;
+    position: relative;
+    top: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 20vh;
+    color: var(--color-white);
+}
+.hero-planta_interior{
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+
+        url(../images/plantainterior.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-planta_exterior{
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+
+        url(../images/plantaexterior.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.plantas{
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fill,
+        minmax(150px, 1fr)
+    );
+    gap: 32px 10px;
+}
+.planta{
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+    
+    text-align: start;
+}
+.planta-poster{
+    height: 270px;
+    border-radius: 8px;
+}
+.planta-data {
+    padding: 0 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+strong{
+    display: none;
+}

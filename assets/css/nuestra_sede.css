@@ -1,0 +1,47 @@
+#hero-nuestra_sede {
+    padding: 0 20px;
+    height: 100vh;
+    
+    color: var(--color-white);
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+
+        url(../images/vivero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hero_container {
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    justify-content: start;
+}
+#hero-nuestra_sede h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: start;
+    letter-spacing: 2px;
+}
+
+.contactanos-sede{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    gap: 2rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.contactanos-sede i {
+    font-size: 22px;
+}

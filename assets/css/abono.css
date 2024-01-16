@@ -1,0 +1,43 @@
+#hero-abono {
+    padding: 0 20px;
+    height: 100vh;
+
+    color: var(--color-white);
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)),
+
+        url(../images/abono_hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero_container {
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4rem;
+    justify-content: start;
+}
+.hero_container h1 {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.hero_container span {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.hero_container span span{
+    color: #0caf0c;
+    font-size: 18px;
+    font-weight: bold;
+}
